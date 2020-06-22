@@ -8,7 +8,7 @@ export default class InputFullSalary extends Component {
   render() {
     const {value} = this.props;
     return (
-      <div>
+      <div style={{padding:'10px',marginLeft:'25px'}}>
         <span style={{color:'#16a085',fontWeight:'bold'}}>Salário Bruto</span>
         <input style={{maxWidth:'97%'}} type="number" value={value} onChange={this.handleInputChange}/>
       </div>

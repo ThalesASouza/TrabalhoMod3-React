@@ -6,7 +6,7 @@ export default class NetSalary extends Component {
   render() {
     const{value,percentual} = this.props
     return (
-      <div className={`${css.flexColumn} ${css.NetSalary}`}>
+      <div style={{width:'100%'}} className={`${css.flexColumn} ${css.NetSalary}`}>
         <span>Salário líquido</span>
         <input type="text" value={`${formatNumber(value)} (${percentual.toFixed(2)}%)`} readOnly />
       </div>

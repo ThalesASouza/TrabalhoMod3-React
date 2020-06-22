@@ -40,5 +40,11 @@ export default class App extends Component {
 const style = {
   centeredTitle: {
     textAlign: 'center',
+    background: '#4eb6ad',
+    borderRadius: '10px 10px 0px 0px',
+    color:'white',
+    fontSize:'30px',
+    fontWeight: 'bold',
+    padding:'5px'
   },
 };

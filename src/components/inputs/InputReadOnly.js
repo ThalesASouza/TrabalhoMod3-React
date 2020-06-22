@@ -10,7 +10,7 @@ export default class InputReadOnly extends Component {
   render() {
     const {results} =this.props;
     return (
-      <div className={css.flexRow}>
+      <div className={css.flexRow} style={{ marginLeft:'25px'}}>
         <BaseINSS value={results.baseINSS}/>
         <DescontoINSS value={results.discountINSS} percentual={results.percentINSS}/>
         <BaseIRPF value={results.baseIRPF}/>
