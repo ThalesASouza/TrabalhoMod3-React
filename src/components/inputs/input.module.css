@@ -1,0 +1,33 @@
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: left;
+  margin-right: 3%;
+  width: 22%;
+  color: gray;
+  margin-top: 10px;
+}
+.flexColumn input{
+  font-weight: bold;
+}
+.descontoINSS input{
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.descontoIRPF input{
+  color: #c0392b;
+  font-weight: bold;
+}
+.NetSalary input{
+  color: #16a085;
+  font-weight: bold;
+}
